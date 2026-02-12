@@ -1,4 +1,4 @@
-# Crocodile — Hack The Box
+# Crocodile
 
 ## Overview
 
@@ -33,7 +33,11 @@ The scan revealed the following open services:
 - **Port 21** — FTP (`vsftpd 3.0.3`)
 - **Port 80** — Apache HTTP Server `2.4.41`
 
-The FTP service allowed anonymous login (FTP code `230`). Upon connecting anonymously, two accessible files were discovered. This misconfiguration immediately suggested potential credential exposure.
+The FTP service allowed anonymous login (FTP code `230`). Upon connecting anonymously, two accessible files were discovered.
+
+![alt text](img/img1.png)
+
+This misconfiguration immediately suggested potential credential exposure.
 
 ---
 
@@ -59,6 +63,8 @@ get allowed.userlist
 get allowed.userlist.passwd
 ```
 
+![alt text](img/img2.png)
+
 These files contained potential usernames and passwords.
 
 ---
@@ -78,6 +84,8 @@ The scan revealed several accessible paths, including:
 - `/config.php` (Status: 200)
 - `/index.html` (Status: 200)
 - `/login.php` (Status: 200)
+
+![alt text](img/img3.png)
 
 Among these findings, `/login.php` was particularly interesting, as it exposed an authentication form.
 
@@ -137,6 +145,8 @@ The script identified one combination returning a different response size:
 ```
 [+] FOUND -> admin : rKXM59ESxesUFHAd (size: 1258)
 ```
+
+![alt text](img/img4.png)
 
 This deviation confirmed successful authentication.
 
