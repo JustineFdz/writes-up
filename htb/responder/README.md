@@ -88,6 +88,8 @@ The captured hash was saved into a file:
 nano hash.txt
 ```
 
+![alt text](img/image4.png)
+
 John The Ripper was used with explicit format specification:
 
 ```bash
@@ -166,7 +168,7 @@ User flag:
 ea81b7afddd03efaa0945333ed147fac
 ```
 
-![alt text](image.png)
+htb/responder/img/image5.png
 
 ---
 
