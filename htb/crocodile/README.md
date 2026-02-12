@@ -1,5 +1,7 @@
 # Crocodile
 
+This write-up is provided strictly for educational purposes, to demonstrate how misconfigurations can be identified and remediated in controlled lab environments.
+
 ## Overview
 
 This write-up documents the methodology used to compromise the Crocodile machine. The approach focuses strictly on protocol analysis, response comparison, and controlled brute-force validation.

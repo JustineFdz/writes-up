@@ -1,5 +1,7 @@
 # Responder
 
+This write-up is provided strictly for educational purposes, to demonstrate how misconfigurations can be identified and remediated in controlled lab environments.
+
 ## Overview
 
 This write-up documents the complete attack chain used to compromise the **Responder** Windows machine. The methodology follows a structured progression: web enumeration, LFI exploitation, NTLM capture via SMB, password cracking, and remote access through WinRM.

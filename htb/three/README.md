@@ -1,5 +1,7 @@
 # Three
 
+This write-up is provided strictly for educational purposes, to demonstrate how misconfigurations can be identified and remediated in controlled lab environments.
+
 ## Overview
 
 This write-up documents the complete compromise of the _Three_ machine. The attack chain is based strictly on observable evidence: reconnaissance, subdomain enumeration, S3 bucket misconfiguration, arbitrary file upload, PHP execution, and flag retrieval.
