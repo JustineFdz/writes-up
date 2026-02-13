@@ -78,7 +78,7 @@ The victim attempted SMB authentication, and Responder captured a NetNTLMv2 hash
 Administrator::RESPONDER:0722d51aaaf6ee7a:...
 ```
 
-![alt text](img/image.png)
+![alt text](../img/responder/image.png)
 
 ---
 
@@ -90,7 +90,7 @@ The captured hash was saved into a file:
 nano hash.txt
 ```
 
-![alt text](img/image4.png)
+![alt text](../img/responder/image4.png)
 
 John The Ripper was used with explicit format specification:
 
@@ -104,7 +104,7 @@ Recovered password:
 badminton
 ```
 
-![alt text](img/image2.png)
+![alt text](../img/responder/image2.png)
 
 ---
 
@@ -147,7 +147,7 @@ cd ../..
 ls
 ```
 
-![alt text](img/image3.png)
+![alt text](../img/responder/image3.png)
 
 Navigating to Mike's desktop:
 
@@ -170,7 +170,7 @@ User flag:
 ea81b7afddd03efaa0945333ed147fac
 ```
 
-htb/responder/img/image5.png
+![alt text](../img/responder/image5.png)
 
 ---
 

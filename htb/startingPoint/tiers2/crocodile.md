@@ -37,7 +37,7 @@ The scan revealed the following open services:
 
 The FTP service allowed anonymous login (FTP code `230`). Upon connecting anonymously, two accessible files were discovered.
 
-![alt text](img/img1.png)
+![alt text](../img/crocodile/img1.png)
 
 This misconfiguration immediately suggested potential credential exposure.
 
@@ -65,7 +65,7 @@ get allowed.userlist
 get allowed.userlist.passwd
 ```
 
-![alt text](img/img2.png)
+![alt text](../img/crocodile/img2.png)
 
 These files contained potential usernames and passwords.
 
@@ -87,7 +87,7 @@ The scan revealed several accessible paths, including:
 - `/index.html` (Status: 200)
 - `/login.php` (Status: 200)
 
-![alt text](img/img3.png)
+![alt text](../img/crocodile/img3.png)
 
 Among these findings, `/login.php` was particularly interesting, as it exposed an authentication form.
 
@@ -148,7 +148,7 @@ The script identified one combination returning a different response size:
 [+] FOUND -> admin : rKXM59ESxesUFHAd (size: 1258)
 ```
 
-![alt text](img/img4.png)
+![alt text](../img/crocodile/img4.png)
 
 This deviation confirmed successful authentication.
 

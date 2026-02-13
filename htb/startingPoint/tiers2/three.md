@@ -61,7 +61,7 @@ ffuf -u http://thetoppers.htb -H "Host: FUZZ.thetoppers.htb" \
 -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt
 ```
 
-![alt text](img/image.png)
+![alt text](../img/three/image.png)
 
 This revealed the subdomain:
 
@@ -99,7 +99,7 @@ AWS CLI was configured with placeholder credentials:
 aws configure
 ```
 
-![alt text](img/image1.png)
+![alt text](../img/three/image1.png)
 
 Then buckets were listed:
 
@@ -127,7 +127,7 @@ index.php
 images/
 ```
 
-![htb/three/img/image2.png](img/image2.png)
+![htb/three/img/image2.png](../img/three/image2.png)
 
 ---
 
@@ -154,7 +154,7 @@ test
 
 The bucket allowed arbitrary file uploads.
 
-htb/three/img/image3.png
+![alt text](../img/three/image3.png)
 
 ---
 
@@ -188,7 +188,7 @@ uid=33(www-data) gid=33(www-data)
 
 RCE confirmed.
 
-![alt text](img/image4.png)
+![alt text](../img/three/image4.png)
 
 ---
 
@@ -218,7 +218,7 @@ Flag:
 a980d99281a28d638ac68b9bf9453c2b
 ```
 
-![alt text](img/image5.png)
+![alt text](../img/three/image5.png)
 
 ---
 
