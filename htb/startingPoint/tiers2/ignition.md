@@ -130,7 +130,7 @@ The task hint points toward Magento password policy and common passwords. Magent
 
 A common-password wordlist (2023) was used: [wordlist](https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/2023-200_most_used_passwords.txt)
 
-The brute-force was performed with **Burp Suite Intruder** (rather than Hydra) to reliably validate success using **response status code** and **response length**.
+The brute-force was performed with **Burp Suite Intruder** to reliably validate success using **response status code** and **response length**.
 
 ### 7.1 Intercepting the Login Request
 
