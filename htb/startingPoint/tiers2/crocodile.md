@@ -25,7 +25,7 @@ This write-up documents the methodology used to compromise the Crocodile machine
 A full TCP port scan was performed using:
 
 ```bash
-sudo nmap -sSCV <target-ip> -p- --min-rate=1000 -oA cap-nmap
+sudo nmap -sCV <target-ip> -p- --min-rate=1000 -oA cap-nmap
 ```
 
 This command performs a complete port scan (`-p-`), runs default scripts (`-sC`), detects service versions (`-sV`), increases scan speed (`--min-rate=1000`), and saves the results in multiple output formats (`-oA`).

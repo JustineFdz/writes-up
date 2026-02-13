@@ -30,8 +30,10 @@ All steps are reproducible and command-driven.
 A full TCP scan was performed:
 
 ```bash
-sudo nmap -sSCV <target-ip> -p- --min-rate=1000
+sudo nmap -sCV <target-ip> -p- --min-rate=1000
 ```
+
+This command performs a complete port scan (`-p-`), runs default scripts (`-sC`), detects service versions (`-sV`), increases scan speed (`--min-rate=1000`)
 
 Results showed two open ports:
 
