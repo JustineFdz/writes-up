@@ -1,5 +1,7 @@
 # SUDO Privilege Escalation Cheat Sheet
 
+See [vaccine machine](https://github.com/JustineFdz/writes-up/blob/main/htb/startingPoint/tiers3/vaccine.md)
+
 ## Dangerous Programs When Allowed via sudo
 
 If any of the following binaries appear in `sudo -l`, treat it as an immediate escalation opportunity.
