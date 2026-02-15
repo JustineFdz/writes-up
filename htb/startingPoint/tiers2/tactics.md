@@ -206,4 +206,4 @@ The compromise of the Tactics machine required:
 
 No brute force, exploitation, or privilege escalation was required — only proper SMB access and controlled enumeration.
 
-This lab demonstrates how administrative shares combined with valid credentials can lead directly to full system compromise.
+This lab demonstrates how exposed administrative shares combined with weak or empty credentials can lead directly to full system compromise. In this case, authentication succeeded without providing a password, highlighting a critical misconfiguration rather than credential reuse.
